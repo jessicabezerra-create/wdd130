@@ -1,59 +1,59 @@
+/* Layout */
 main {
     max-width: 840px;
 }
 
 aside {
-    width: 20rem; 
+    width: 20rem;
     margin: 1rem;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
     padding: 1rem;
-    background-color: #eee;
+    background-color: antiquewhite;
     color: #333;
     text-align: center;
 }
 
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-main img {
-    width: 200px;
-    height: auto;
-}
-
-p { 
-    padding: 0;}
-
-footer{
+footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
 }
 
+/* Navigation */
 nav {
-    background-color: darkblue;
+    background-color: antiquewhite;
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: black;
     display: block;
     padding: 20px;
 }
 
+/* Typography */
 h1 {
-    color: darkblue;
+    color: black;
 }
 
+p {
+    padding: 10px;
+}
+
+/* Images */
 img {
-    width: 200px;
+    max-width: 200px; /* safer than fixed width */
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 10px;
+/* Special cases (optional) */
+aside img {
+
+}
+
+main img {
+
 }
