@@ -1,14 +1,14 @@
-/* Layout */
+/* 1. Layout */
 main {
     max-width: 840px;
 }
 
 aside {
-    max-width: 20rem;
+    width: 20rem;
     margin: 1rem;
     border: 1px solid #ccc;
     padding: 1rem;
-    background-color: antiquewhite;
+    background-color: lightblue;
     color: #333;
     text-align: center;
 }
@@ -19,9 +19,9 @@ footer {
     text-align: center;
 }
 
-/* Navigation */
+/* 2. Navigation */
 nav {
-    background-color: antiquewhite;
+    background-color: royalblue;
     padding: 10px;
 }
 
@@ -31,7 +31,7 @@ nav a {
     padding: 20px;
 }
 
-/* Typography */
+/* 3. Typography */
 h1 {
     color: black;
 }
@@ -40,7 +40,7 @@ p {
     padding: 10px;
 }
 
-/* Images */
+/* 4. Images */
 img {
     max-width: 200px; 
     height: auto;
