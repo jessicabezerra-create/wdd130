@@ -4,7 +4,7 @@ main {
 }
 
 aside {
-    width: 20rem;
+    max-width: 20rem;
     margin: 1rem;
     border: 1px solid #ccc;
     padding: 1rem;
@@ -42,7 +42,7 @@ p {
 
 /* Images */
 img {
-    width: 200px; 
+    max-width: 200px; 
     height: auto;
     border: 1px solid black;
     padding: 2px;
