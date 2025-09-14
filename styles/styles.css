@@ -1,50 +1,59 @@
-/* 1. Layout */
-main {
-    max-width: 840px;
-}
-
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid #ccc;
-    padding: 1rem;
-    background-color: lightblue;
-    color: #333;
-    text-align: center;
-}
-
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
-
-/* 2. Navigation */
+/* Navigation */
 nav {
-    background-color: royalblue;
-    padding: 10px;
+  background-color: #333;
+  padding: 1rem;
 }
-
 nav a {
-    color: black;
-    display: block;
-    padding: 20px;
+  color: white;
+  padding: 0.5rem;
+  display: block;
+  text-decoration: none;
 }
 
-/* 3. Typography */
+/* Headings */
 h1 {
-    color: black;
+  color: #222;
 }
 
-p {
-    padding: 10px;
-}
-
-/* 4. Images */
+/* image */
 img {
-    max-width: 200px; 
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+  width: 200px;
+  height: auto;
+  border: 2px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Main */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Aside */
+aside {
+  width: 300px;
+  margin: 1rem auto;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Paragraphs */
+p {
+  padding: 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  padding: 1rem;
 }
